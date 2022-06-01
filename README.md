@@ -15,4 +15,4 @@ Teknologi yang saya gunakan adalah :
 9. `Font Awesome Icon`
 10. `Google Fonts`
 11. `Sweet Alert2`
-Tes ganti
+
