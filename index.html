@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ISCI Team | Programming and Hacking</title>
+
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+
+    <!-- CSS Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- ICON -->
+    <link rel="shortcut icon" href="img/ISCI.png" type="image/x-icon">
+
+    <!-- AOT -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- CSS Icon -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+        <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Include the Borderless theme -->
+    <link rel="stylesheet" href="node_modules/@sweetalert2/theme-borderless/borderless.css" />
+
+    <script src="node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+
+
+  </head>
+  <body>
+
+    <!-- Loader -->
+    <div class="bg-loader">
+    <div class="spinner">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      </div>
+</div>
+<!-- <div class="bg-loader">
+  <div class="loader">
+    <img src="img/ISCI.png" alt="">
+  </div>
+</div> -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-lg sticky-top" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/ISCI.png" alt="" style="width: 50px; margin-right: 10px;" class="d-inline-block">ISCI Team</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#faq">FAQ</a>
+            <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link" href="#join">Join</a>
+            <label class="switch">
+              <input type="checkbox" onclick="myFunction()">
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+     
+    <!-- Banner -->
+    <section id="banner">
+      <div class="banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                <h1 class="title text-sky-400/100">
+                  Hacking <br />
+                  & Coding
+                </h1>
+                <p class="text-mute">Cyber Security and Web Development Community</p>
+                <br /> 
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div data-aos="zoom-in" data-aos-delay="50" data-aos-duration="2000">
+                <img src="img/undraw_Developer_activity_re_39tg.png" class="ban-img img-fluid rounded-circle" alt="Team" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- About -->
+    <!-- Vission and Mission -->
+    <section id="about" data-bs-spy="scroll" data-bs-target="#navbar">
+      <div class="container">
+
+        <h1 class="text-center text-sky-400/100" style="font-size: 2em; margin-bottom: 10px; text-transform: uppercase;">About Us</h1>
+        <div class="line mx-auto my-3"></div>
+        <br />
+        <br />
+  
+        <div class="row">
+          <div class="col-md-6">
+            <div class="mb-3">
+              <h2 class="text-sky-400/100" style="text-transform: uppercase;">History</h2>
+              <p class="text-mute">
+                ISCI atau ( Indonesia Secret Cyber Inteligence ) adalah komunitas cyber security yang di bentuk pada
+                Tanggal 12, bulan 2 dan pada tahun 2022
+                Dan di gagas oleh orang yang berjumlah 3 orang.
+                Tujuan awal di bentuk ISCI hanya untuk komunitas hacking
+                Kemudian beralih tujuan menjadi komunitas cyber security dan web developer serta mengawasi kejahatan di dunia internet 
+                Dan kini anggota ISCI bertambah seiring waktu
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div data-aos="fade-right">
+              <img src="img/undraw_Security_on_re_e491.png" alt="" class="img-fluid" style="width: 400px" />
+            </div>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-6">
+            <div class="mb-3">
+              <h2 class="text-sky-400/100" style="text-transform: uppercase;">Mission</h2>
+              <p class="text-mute">
+                ISCI team Berusaha mengenalkan kepada masyarakat luas tentang perkembangan teknologi dalam dunia internet.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="mb-3">
+              <h2 class="text-sky-400/100" style="text-transform: uppercase;">Vission</h2>
+              <p class="text-mute">
+                ISCI Team bertujuan untuk mengawasi situs web, patroli di media sosial, Mengawasi kejahatan dunia maya dan aktivitas penipuan di dunia internet.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div data-aos="fade-right">
+              <img src="img/undraw_team_work_k80m.png" alt="" class="img-fluid" style="width: 400px" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <center>
+    <section id="faq">
+      <div class="container">
+          <h4 class="text-center text-sky-400/100" style="text-transform: uppercase;">Frequently Asked Questions</h4>
+          <div class="line my-4 mx-auto"></div>
+          <div class="col-md-8 faq">
+              <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              <div class="question-icon"><i class="fas fa-question-circle"></i></div>Apa itu ISCI Team?
+                          </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                          data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                              <strong>ISCI Team</strong> adalah komunitas tempatnya para peminat programming dan hacking. ISCI juga tempat diskusi dan belajar tentang dunia teknologi.
+                          </div>
+                      </div>
+                  </div>
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              <div class="question-icon"><i class="fas fa-question-circle"></i></div> Saya seorang pemula, apakah saya bisa bergabung dengan ISCI Team?
+                          </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                          data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                              Tentu saja bisa. kami membuka komunitas untuk masyarakat luas yang ingin berminat tentang dunia internet.silahkan hubungi kami jika anda ingin bergabung dengan kami. Oh ya, jika anda ingin bergabung dengan grup khusus. anda harus menyelesaikan tantangan dari kami terlebih dahulu😉.
+                          </div>
+                      </div>
+                  </div>
+
+
+
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              <div class="question-icon"><i class="fas fa-question-circle"></i></div> Apakah ISCI team melayani jasa Web Development?
+                          </button>
+                      </h2>
+                      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                          data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                              Yes, tentu saja bisa. ISCI Team memiliki beberapa orang yang mahir dalam pembuatan website.
+                          </div>
+                      </div>
+                  </div>
+
+
+
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              <div class="question-icon"><i class="fas fa-question-circle"></i></div> Anggota ISCI ada berapa banyak?
+                          </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                          data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                              Hmmmm, untuk sementara ini, jumlah anggota ISCI masih terdiri dari 17 orang, dan kini anggota ISCI bertambah seiring waktu 
+                          </div>
+                      </div>
+                  </div>
+
+
+
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingFive">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                              <div class="question-icon"><i class="fas fa-question-circle"></i></div> Apakah ISCI Team membuka layanan penetration testing pada website?
+                      </h2>
+                      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                          data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                              ya, kami juga mempunyai beberapa orang yang dapat menguji keamanan pada suatu website
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  </section>
+</center>
+
+
+<!-- Contact -->
+<section id="contact">
+ <div class="container">
+     <div data-aos="fade-down" data-aos-delay="50" data-aos-duration="1000">
+         <h2 class="text-center text-sky-400/100" style="font-size: 2em; margin-bottom: 10px; text-transform: uppercase;">Admin Contact</h2>
+         <div class="line my-4 mx-auto"></div>
+     </div>
+     <div class="row text-center">
+         <div class="col-md-4 contact">
+             <div data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
+                 <div class="icon-contact shadow-lg"><i class="fas fa-phone"></i></div>
+                 <h4>Phone Number</h4>
+                 <br>
+                 <p>+62 821-7493-5446</p>
+                 <p>+62 813-7606-0606</p>
+                 <p>+62 895-3352-94976</p>
+                 <p>+62 811-9947-878</p>
+             </div>
+         </div>
+         <div class="col-md-4 contact">
+             <div data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
+                 <div class="icon-contact shadow-lg"><i class="fas fa-envelope"></i></div>
+                 <h4>Email</h4>
+                 <br>
+                 <a href="mailto: isci.team777@gmail.com"
+                     class="btn btn-outline-primary">isci.team777@gmail.com</a>
+             </div>
+         </div>
+         <div class="col-md-4 contact">
+             <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                 <div class="icon-contact shadow-lg"><i class="fab fa-whatsapp"></i></div>
+                 <h4>WhatsApp</h4>
+                 <br>
+                 <a href="https://wa.me/6282174935446" class="btn btn-outline-success acontact">+62
+                     821-7493-5446</a><br><br>
+                 <a href="https://wa.me/6281376060606" class="btn btn-outline-success acontact">+62
+                     813-7606-0606</a><br><br>
+                 <a href="https://wa.me/62895335294976" class="btn btn-outline-success acontact">+62
+                     895-3352-94976</a><br><br>
+                 <a href="https://wa.me/628119947878" class="btn btn-outline-success acontact">+62
+                     811-9947-878</a><br><br>
+             </div>
+         </div>
+     </div>
+ </div>
+</section>
+
+
+<!-- Join -->
+<section id="join">
+ <div class="container">
+  <h1 class="text-sky-400 text-center" style="font-size: 2em;text-transform: uppercase;">Join Our Team</h1>
+  <div class="line my-4 mx-auto"></div>
+
+   <div class="mb-3">
+    <p class="text-center text-mute">Ayo segera join ke komunitas kami...eitsss, tapi kamu harus menyelesaikan tantangan dari kami dulu ya.. Gimana jika gagal? jangan khawatir, kamu masih bisa join ke komunitas belajar kami kok. Good luck yaa.. :)
+    </p>
+    <center>
+      <br>
+    <a href="https://wa.me/6282174935446?text=Saya%20mau%20join%20komunitas%20ISCI%20bang%20:)" class="learning-group">Learning Group</a>
+    <button class="special-group" onclick="myRedirect()">Special Group</button> 
+
+  </center>
+   </div>
+ </div>
+</section>
+
+<!-- Footer -->
+<section id="footer">
+<div class="container">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-sky-400">Home</a></li>
+      <li class="nav-item"><a href="#about" class="nav-link px-2 text-sky-400">About</a></li>
+      <li class="nav-item"><a href="#faq" class="nav-link px-2 text-sky-400">FAQ</a></li>
+      <li class="nav-item"><a href="#contact" class="nav-link px-2 text-sky-400">Contact</a></li>
+      <li class="nav-item"><a href="#join" class="nav-link px-2 text-sky-400">Join</a></li>
+    </ul>
+    <p class="text-center text-sky-400">&copy; 2022 ISCI Team</p>
+  </footer>
+</div>
+</section>
+
+    <!-- JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- AOT script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+      <!-- My JS -->
+      <script src="js/script.js"></script>
+  </body>
+</html>
