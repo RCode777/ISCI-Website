@@ -35,6 +35,24 @@
 
     <script src="node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
 
+	<style>
+	body.light-mode .navbar a:hover {
+	  color: #0f172a !important;
+	}
+	.navbar a:hover {
+	  color: white!important;
+	}
+	.fa-github {
+	  color: white;
+	}
+	body.light-mode .fa-github {
+	  color: black;
+	}
+  .disclaimer {
+    display: none !important;
+  }
+	</style>
+
 
   </head>
   <body>
@@ -56,7 +74,7 @@
   </div>
 </div> -->
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-lg sticky-top" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light shadow sticky-top" id="navbar">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="img/ISCI.png" alt="" style="width: 50px; margin-right: 10px;" class="d-inline-block">ISCI Team</a>
@@ -64,16 +82,17 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <div class="navbar-nav mx-auto">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
             <a class="nav-link" href="#about">About</a>
             <a class="nav-link" href="#faq">FAQ</a>
             <a class="nav-link" href="#contact">Contact</a>
             <a class="nav-link" href="#join">Join</a>
-            <label class="switch">
+            <label class="switch absolute right-12" style="margin-right: 20px;">
               <input type="checkbox" onclick="myFunction()">
               <span class="slider"></span>
             </label>
+	          <a href="https://github.com/ISCI-Team"><i class="fab fa-github" style="font-size: 2em;"></i></a>
           </div>
         </div>
       </div>
@@ -291,13 +310,13 @@
                  <div class="icon-contact shadow-lg"><i class="fab fa-whatsapp"></i></div>
                  <h4>WhatsApp</h4>
                  <br>
-                 <a href="https://wa.me/6282174935446" class="btn btn-outline-success acontact">+62
+                 <a href="https://wa.me/6282174935446" class="btn btn-outline-success acontact hover:shadow-2xl">+62
                      821-7493-5446</a><br><br>
-                 <a href="https://wa.me/6281376060606" class="btn btn-outline-success acontact">+62
+                 <a href="https://wa.me/6281376060606" class="btn btn-outline-success acontact hover:shadow-2xl">+62
                      813-7606-0606</a><br><br>
-                 <a href="https://wa.me/62895335294976" class="btn btn-outline-success acontact">+62
+                 <a href="https://wa.me/62895335294976" class="btn btn-outline-success acontact hover:shadow-2xl">+62
                      895-3352-94976</a><br><br>
-                 <a href="https://wa.me/628119947878" class="btn btn-outline-success acontact">+62
+                 <a href="https://wa.me/628119947878" class="btn btn-outline-success acontact hover:shadow-2xl">+62
                      811-9947-878</a><br><br>
              </div>
          </div>
@@ -317,8 +336,11 @@
     </p>
     <center>
       <br>
-    <a href="https://wa.me/6282174935446?text=Saya%20mau%20join%20komunitas%20ISCI%20bang%20:)" class="learning-group">Learning Group</a>
-    <button class="special-group" onclick="myRedirect()">Special Group</button> 
+    <a href="https://wa.me/6282174935446?text=Saya%20mau%20join%20komunitas%20ISCI%20bang%20:)" class="learning-group hover:bg-green-500"><i class="fab fa-whatsapp"></i>  Learning Group</a>
+
+<a href="https://discord.gg/Mtn2jCMr" class="learning-group bg-purple-600 hover:bg-purple-800"><i class="fab fa-discord"></i> Discord Group</a> <br><br>
+
+<button class="special-group hover:bg-green-500" onclick="myRedirect()"><i class="fab fa-whatsapp"></i>  Special Group</button> 
 
   </center>
    </div>
