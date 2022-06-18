@@ -1,6 +1,6 @@
 # ISCI-Website
 
-https://isci-team.000webhostapp.com
+https://isciteam.000webhostapp.com
 
 ini adalah website resmi organisasi ISCI atau Indonesia Secret Cyber Inteligence, 
 Teknologi yang saya gunakan adalah : 
